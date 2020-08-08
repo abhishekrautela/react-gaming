@@ -1,5 +1,23 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+##How to Start?
+
+Install create-react-app using npm.
+
+Fire up a Terminal/Command Prompt.
+
+Navigate to the directory where you would like to create your project.
+
+Type the following command into the Terminal:
+
+create-react-app projectname
+
+Now paste the contents of this project to the project you created(Overwrite the existing files and folders) and hit the following commands.
+
+npm install
+
+npm start
+
 ## Available Scripts
 
 In the project directory, you can run:
