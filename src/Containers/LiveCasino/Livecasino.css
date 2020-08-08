@@ -1,0 +1,13 @@
+.lc-container{
+    padding: 20px;
+}
+.lc-header{
+    padding: 50px;
+}
+.lc-title{
+    color: #ffffff !important;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'OpenSans' serif !important;
+}

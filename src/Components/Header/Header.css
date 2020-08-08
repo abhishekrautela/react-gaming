@@ -1,0 +1,120 @@
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+    border: 0;
+}
+
+.user-auth {
+    background: none !important;
+    border: 1px hidden;
+    font-size: 20px;
+    color: #000 !important;
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.auth-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 130px !important;
+    background: none;
+    margin: 0;
+    padding: 0 10px 0 10px;
+    margin-right: 12px;
+    border: 2px solid rgb(217,142,53);
+    border-radius: 1000px;
+}
+.auth-item:hover{
+    background-color: rgb(217,142,53);
+    color: #fff;
+    border: 2px solid rgb(217,142,53);
+}
+.soc-signup{
+    border: none;
+    background-color: rgba(217,142,53,1);
+    width: 100%;
+}
+.soc-signup:hover{
+    background-color: transparent !important;
+}
+.soc-header {
+    color: #ffff;
+    text-shadow: 0 0 5px #fff;
+}
+.twitter, .googlep {
+    visibility: hidden;
+}
+
+.navbar-fixed-top.scrolled {
+    background: transparent !important;
+    transition: background-color 200ms linear;
+}
+
+/* .navbar-fixed-top.scrolled .user-auth {
+    background: none;
+    box-shadow: none;
+}
+.navbar-fixed-top.scrolled .auth-item{
+    background: none;
+}
+.navbar-fixed-top.scrolled .soc-header{
+   color: #edbc58;
+} */
+#nav-links {
+    color: #fff;
+    margin: 0;
+}
+
+.brandlogo {
+    padding: 0;
+}
+@media only screen and (max-width:1400px){
+.auth-item{
+    width: 100px !important;
+    font-size: 15px;
+}
+}
+@media only screen and (max-width:767px) {
+    #navbarCollapse3 {
+        background-color: #000;
+        text-align: center;
+    }
+    .brandlogo {
+        display: none;
+    }
+    .twitter {
+        display: none;
+    }
+    .googlep {
+        display: none;
+    }
+    .custom-toggler {
+        border: none !important;
+        color: #edbc58;
+        padding-right: 20px;
+        outline: none;
+    }
+    .user {
+        color: #edbc58;
+        border: none !important;
+    }
+    .custom-toggler:active {
+        border: none !important;
+        outline: none;
+    }
+    .custom-toggler:focus {
+        border: none !important;
+        outline: none;
+    }
+    .nav-exp {
+        background-color: #000;
+        text-align: center;
+    }
+}

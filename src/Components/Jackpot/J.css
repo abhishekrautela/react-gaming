@@ -1,0 +1,119 @@
+.winners-block {
+    background: url('../../assets/images/23673.png');
+    background-position: 100% 40% !important;
+    background-repeat: no-repeat;
+    background-size: 60%;
+    height: 100%;
+}
+
+.jackpot {
+    max-width: 100%;
+}
+
+.jackpot-bk {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    padding-top: 20px;
+}
+
+.jackpot-one {
+    padding-left: 5%;
+    max-width: 30%;
+    animation-name: zoominout;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes zoominout {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.2, 1.2);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+.jackpot-section {
+    padding: 0;
+    margin: 0;
+}
+
+.jack {
+    padding: 0;
+    margin: 0;
+}
+
+.winner-jackpot-section {
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.jackpot-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    margin: 0;
+}
+
+.jackpot-header {
+    font-size: 3rem;
+    color: #ffd700;
+}
+
+.jackpot-amount {
+    font-size: 4rem;
+    color: #ffd700;
+}
+
+@media only screen and (max-width:1500px) and (min-width:1200px) {
+    .jackpot-header {
+        font-size: 2.5rem;
+    }
+    .jackpot-amount {
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (max-width:1060px) {
+    .winners-block {
+        background-size: 50%;
+        background-position: right;
+    }
+}
+
+@media only screen and (max-width:900px) and (min-width:768px) {
+    .jackpot-header {
+        font-size: 2.5rem;
+    }
+    .jackpot-amount {
+        font-size: 3rem;
+    }
+    .jackpot-bk {
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .winners-block {
+        background: none;
+        background-size: 50%;
+        background-position: right;
+    }
+    .jackpot-bk {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

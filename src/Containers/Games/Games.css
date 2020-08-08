@@ -1,0 +1,35 @@
+.menu-section{
+    padding: 50px;
+}
+.section-title h2{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'OpenSans' serif !important;
+    text-transform: uppercase;
+    padding: 50px;
+}
+.menu-filters{
+    display: flex;
+    flex-direction: row !important;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+}
+.menu-filters li{
+    display: inline;
+    color: #fff !important;
+    cursor: pointer;
+}
+.menu-filters li:hover{
+    color: #edbc58 !important;
+}
+.menu-filters .filter-active
+{
+    color: #edbc58 !important;
+}
+.gc-img-box{
+    width: 100%;
+    background: #000;
+}

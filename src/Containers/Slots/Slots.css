@@ -1,0 +1,16 @@
+.slot-container{
+    padding: 20px;
+}
+.slot-header{
+    padding: 50px;
+}
+.slot-title{
+    color: #ffffff !important;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'OpenSans' serif !important;
+}
+.content a:focus{
+outline: none;
+}

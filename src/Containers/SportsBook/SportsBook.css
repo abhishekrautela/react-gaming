@@ -1,0 +1,13 @@
+.sports-container{
+    padding: 20px;
+}
+.sports-header{
+    padding: 50px;
+}
+.sports-title{
+    color: #ffffff !important;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'OpenSans' serif !important;
+}
